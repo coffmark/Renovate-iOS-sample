@@ -1,10 +1,9 @@
 # Uncomment the next line to define a global platform for your project
-inhibit_all_warnings!
 
 is_running_in_renovate = ENV['HOME'] == '/home/ubuntu'
 if is_running_in_renovate
   # Renovateでの実行時にはXcodeGenが実行できず、xcodeprojが存在しないので `:integrate_targets => false` とする。
-
+  inhibit_all_warnings!
   install! 'cocoapods', :integrate_targets => false
 else
   install! 'cocoapods'
