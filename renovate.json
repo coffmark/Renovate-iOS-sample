@@ -11,6 +11,9 @@
   "prHourlyLimit": 0,
   "baseBranches": ["main"],
   "prConcurrentLimit": 1,
+  "ignorePaths": [
+    "XcodeGen"
+  ],
   "reviewers": [
     "coffmark"
   ],

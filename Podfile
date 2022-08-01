@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '15.5'
+inhibit_all_warnings!
 
 is_running_in_renovate = ENV['HOME'] == '/home/ubuntu'
 if is_running_in_renovate
@@ -9,11 +9,14 @@ else
   install! 'cocoapods'
 end
 
+platform :ios, '15.5'
+
 target 'Renovate-iOS-sample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   # Renovateを実行するためSwiftバージョンを指定する
   # https://github.com/CocoaPods/CocoaPods/issues/8653#issuecomment-488767262
+  # すでに定義されてあれば、必要なさそう
   current_target_definition.swift_version = '5.6.1'
 
   # Pods for Renovate-iOS-sample
