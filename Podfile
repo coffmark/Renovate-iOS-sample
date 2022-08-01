@@ -25,5 +25,5 @@ target 'Renovate-iOS-sample' do
   pod 'RxCocoa', '~> 6'
   pod 'Alamofire', '~> 5.6.0'
   pod 'SwiftGen', '~> 6.0'
-  pod 'Nimble', '~> 9.0'
+  pod 'Nimble', '~> 10.0'
 end
