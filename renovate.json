@@ -1,15 +1,15 @@
 {
   "packageRules": [
     {
-      "groupName": "SwiftLint",
+      "groupName": "CocoaPods",
       "managers": [
         "cocoapods"
       ],
       "packageNames": [
-        "SwiftLint"
-      ],
-      "enabled": true,
-      "automerge": false
+        "SwiftLint",
+        "RxSwift",
+        "RxCocoa"
+      ]
     }
   ]
 }
