@@ -2,45 +2,239 @@
 
 ---
 
+## 5.3.0
+
+### Changes in other SwiftGen modules
+
+* [StencilSwiftKit 2.4.0](https://github.com/SwiftGen/StencilSwiftKit/blob/2.4.0/CHANGELOG.md)
+* [Stencil 0.10.1](https://github.com/kylef/Stencil/blob/0.10.1/CHANGELOG.md)
+
+### New Features
+
+* XCAssets: exposed getter for image name string.  
+  [Abbey Jackson](https://github.com/abbeyjackson)
+  [SwiftGen/templates#85](https://github.com/SwiftGen/templates/pull/85)
+* XCAssets: exposed getter for color name string.  
+  [Stephan Diederich](https://github.com/diederich)
+  [SwiftGen/templates#87](https://github.com/SwiftGen/templates/pull/87)
+* Allows to set all properties as `public` by using `--param publicAccess` on all templates.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [SwiftGen/templates#84](https://github.com/SwiftGen/templates/pull/84)
+  [Txai Wieser](https://github.com/txaiwieser)
+  [SwiftGen/templates#81](https://github.com/SwiftGen/templates/pull/81)
+
+### Internal Changes
+
+* Merged the `SwiftGenKit` and `templates` repositories back into this repository for easier development and maintenance.  
+  [David Jennes](https://github.com/djbe) 
+  [#356](https://github.com/SwiftGen/SwiftGen/pull/356)
+
+## 5.2.1
+
+### Bug Fixes
+
+* Fix SwiftGen no longer working using CLI parameters (instead of config file).  
+  [David Jennes](https://github.com/djbe) 
+  [#347](https://github.com/SwiftGen/SwiftGen/pull/347)
+* Errors now properly exit with a non-zero exit code.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#348](https://github.com/SwiftGen/SwiftGen/pull/348)
+* `swiftgen --help` prints the full help back again
+  (and not just the help of the default `config run` subcommand).  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#349](https://github.com/SwiftGen/SwiftGen/pull/349)
+
+## 5.2.0
+
+### Changes in other SwiftGen modules
+
+* [SwiftGenKit 2.1.1](https://github.com/SwiftGen/SwiftGenKit/blob/2.1.1/CHANGELOG.md)  
+* [StencilSwiftKit 2.3.0](https://github.com/SwiftGen/StencilSwiftKit/blob/2.3.0/CHANGELOG.md)
+* [templates 2.2.0](https://github.com/SwiftGen/templates/blob/2.2.0/CHANGELOG.md)
+
+### New Features
+
+* You can now use a `swiftgen.yml` file to configure SwiftGen! 🎉  
+  Read more about it [in the dedicated documentation](Documentation/ConfigFile.md).  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#337](https://github.com/SwiftGen/SwiftGen/pull/337)
+* Storyboards: Added a new `ignoreTargetModule` parameter if you're using storyboards in multiple targets, to avoid issues with the generated code.  
+  [Julien Quéré](https://github.com/juli1quere)
+  [SwiftGen/templates#36](https://github.com/SwiftGen/templates/pull/36)
+
+### Bug Fixes
+
+* Fixes an issue in High Sierra where the output of the processed Catalog Entries was not ordered alphabetically.  
+  [Yusuke Kuroiwa](https://github.com/wakinchan)
+  [Francisco Diaz](https://github.com/fdiaz)
+  [SwiftGen/SwiftGenKit#57](https://github.com/SwiftGen/SwiftGenKit/pull/57)
+* Fonts: fix code which checks if a font is already registered.  
+  [Vladimir Burdukov](https://github.com/chipp)
+  [SwiftGen/templates#77](https://github.com/SwiftGen/templates/pull/77)
+* SwiftLint rules: Disabled the `superfluous_disable_command` rule
+  for all `swiftlint:disable` exceptions in all templates.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [SwiftGen/SwiftGen#334](https://github.com/SwiftGen/SwiftGen/issues/334)
+  [SwiftGen/templates#83](https://github.com/SwiftGen/templates/pull/83)
+* When installing SwiftGen via CocoaPods, the unneeded `file.zip` is not kept in `Pods/SwiftGen/` anymore _(freeing ~5MB on each install of SwiftGen made via CocoaPods!)_.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#342](https://github.com/SwiftGen/SwiftGen/pull/342)
+
+## 5.1.2
+
+### Internal Changes
+
+* Allows the SwiftGen source code to be built with Xcode 9.
+  This also has the nice side-effect of making the homebrew installation of SwiftGen also available for macOS 10.13.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [David Jennes](https://github.com/djbe)
+  [#330](https://github.com/SwiftGen/SwiftGen/issues/330)
+  [SwiftGen/Eve#10](https://github.com/SwiftGen/Eve/pull/10)
+
+## 5.1.1
+
+### Changes in other SwiftGen modules
+
+* [templates 2.1.1](https://github.com/SwiftGen/templates/blob/2.1.1/CHANGELOG.md)
+
+### Bug Fixes
+
+* XCAssets: fixed some compatibility issues with the swift 3 template on Xcode 8, and with other templates.  
+  [David Jennes](https://github.com/djbe) 
+  [SwiftGen/templates#76](https://github.com/SwiftGen/templates/pull/76)
+
+## 5.1.0
+
+### Changes in other SwiftGen modules
+
+* [SwiftGenKit 2.1.0](https://github.com/SwiftGen/SwiftGenKit/blob/2.1.0/CHANGELOG.md)
+* [StencilSwiftKit 2.1.0](https://github.com/SwiftGen/StencilSwiftKit/blob/2.1.0/CHANGELOG.md)
+* [templates 2.1.0](https://github.com/SwiftGen/templates/blob/2.1.0/CHANGELOG.md)
+
+### New Features
+
+* Added Swift 4 templates. Use `-t swift4` or whatever variant you want to use
+  (see `swiftgen templates list` for the available names).  
+  [David Jennes](https://github.com/djbe) 
+  [SwiftGen/templates/#67](https://github.com/SwiftGen/templates/pull/67)
+* XCAssets: Added support for named colors. When using `swiftgen xcassets` the bundled templates
+  will now also include colors found in the Asset Catalog in addition to the images.  
+  [David Jennes](https://github.com/djbe) 
+  [SwiftGen/templates/#68](https://github.com/SwiftGen/templates/pull/68)
+* Fonts: the path to fonts will now default to just the font filename, but you can disable
+  this behaviour by enabling the `preservePath` parameter.  
+  [David Jennes](https://github.com/djbe) 
+  [SwiftGen/templates/#71](https://github.com/SwiftGen/templates/pull/71)
+* Colors: new template that uses `#colorLiteral`s.  
+  Use `swiftgen colors -t literals-swift3` / `swiftgen colors -t literals-swift4` to use them.  
+  [David Jennes](https://github.com/djbe) 
+  [SwiftGen/templates/#72](https://github.com/SwiftGen/templates/pull/72)
+
+## 5.0.0
+
+⚠️ This major version is a big milestone in which a lot of refactoring and cleaning has been done. Many features added over previous releases have been reworked and unified, while also preparing SwiftGen for future additions. This means that you'll need to adapt your command line invocations and custom templates to work with this new major version.
+
+Read the [SwiftGen 5.0 Migration Guide](https://github.com/SwiftGen/SwiftGen/blob/master/Documentation/MigrationGuide.md#swiftgen-50-migration-guide) for a list of changes you'll need to apply.
+
+### Changes in other SwiftGen modules
+
+* [SwiftGenKit 2.0.0](https://github.com/SwiftGen/SwiftGenKit/blob/2.0.0/CHANGELOG.md)
+* [StencilSwiftKit 2.0.0](https://github.com/SwiftGen/StencilSwiftKit/blob/2.0.0/CHANGELOG.md)
+* [Stencil 0.9.0](https://github.com/kylef/Stencil/blob/0.9.0/CHANGELOG.md)
+* [templates 2.0.0](https://github.com/SwiftGen/templates/blob/2.0.0/CHANGELOG.md)
+
+### Breaking Changes
+
+* Removed deprecated CLI options. Please consult the migration guide should you still use them.  
+  [David Jennes](https://github.com/djbe)
+  [#301](https://github.com/SwiftGen/SwiftGen/issues/301)
+* Disable default value for named template option and ensure that there is a template option.  
+  [Liquidsoul](https://github.com/liquidsoul)
+  [#283](https://github.com/SwiftGen/SwiftGen/issues/283)
+* Templates are now grouped by subcommand on the filesystem. This is only important if you had custom templates in the `Application Support` directory. To migrate your templates, place them in a subfolder with the name of the subcommand, and remove the prefix of the template filename.  
+  [David Jennes](https://github.com/djbe)
+  [#304](https://github.com/SwiftGen/SwiftGen/issues/304)
+* The `images` command has been renamed to `xcassets` to better reflect its functionality.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#317](https://github.com/SwiftGen/SwiftGen/issues/317)
+
+#### Notable breaking changes from other SwiftGen repositories
+
+* Many deprecated templates have been removed (or merged), and others have been renamed to reflect new behaviours. Please check the [templates migration guide](https://github.com/SwiftGen/templates/blob/master/Documentation/MigrationGuide.md#deprecated-templates-in-20-swiftgen-50) for more information.  
+  [David Jennes](https://github.com/djbe)
+  [SwiftGen/templates#47](https://github.com/SwiftGen/templates/issues/47)
+* There have been some breaking changes in the generated code for storyboards. Please check the [templates migration guide](https://github.com/SwiftGen/templates/blob/master/Documentation/MigrationGuide.md#deprecated-templates-in-20-swiftgen-50) for more information, where we also provide a compatibility template.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [SwiftGen/templates#65](https://github.com/SwiftGen/templates/issues/65)
+* Removed deprecated template context variables, and restructured many others. Please check the [SwiftGenKit migration guide](https://github.com/SwiftGen/SwiftGenKit/blob/master/Documentation/MigrationGuide.md#swiftgenkit-20-swiftgen-50) for more information.  
+  [David Jennes](https://github.com/djbe)
+  [SwiftGen/SwiftGenKit#5](https://github.com/SwiftGen/SwiftGenKit/issues/5)
+* Some filters have been removed in favour of Stencil's built in versions, and other filters have been updated to accept parameters. Please consult the [StencilSwiftKit migration guide](https://github.com/SwiftGen/StencilSwiftKit/blob/master/Documentation/MigrationGuide.md#stencilswiftkit-20-swiftgen-50) for more information.  
+  [David Jennes](https://github.com/djbe)
+  [SwiftGen/StencilSwiftKit#5](https://github.com/SwiftGen/StencilSwiftKit/issues/5)
+  [SwiftGen/StencilSwiftKit#6](https://github.com/SwiftGen/StencilSwiftKit/issues/6)
+
+### New Features
+
+* Colors and strings commands now accept multiple input files. With these 2 additions, all swiftgen generator commands are able to handle multiple input files.  
+  [David Jennes](https://github.com/djbe)
+  [#313](https://github.com/SwiftGen/SwiftGen/issues/313)
+  [SwiftGen/SwiftGenKit#40](https://github.com/SwiftGen/SwiftGenKit/issues/40)
+  [SwiftGen/SwiftGenKit#41](https://github.com/SwiftGen/SwiftGenKit/issues/41)
+
+### Internal Changes
+
+* Improved installation instructions in the README.  
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#303](https://github.com/SwiftGen/SwiftGen/issues/303)
+
+#### Notable internal changes from other SwiftGen repositories
+
+* Switch back from `actool` to an internal parser to fix numerous issues with the former. This fixes issues a few people encountered when using asset catalogs that contained some of the less common set types.  
+  [David Jennes](https://github.com/djbe)
+  [#228](https://github.com/SwiftGen/SwiftGen/issues/228)
+  [SwiftGen/SwiftGenKit#43](https://github.com/SwiftGen/SwiftGenKit/issues/43)
+
 ## 4.2.1
 
-• 🔗 [SwiftGenKit 1.1.0](https://github.com/SwiftGen/SwiftGenKit/blob/1.1.0/CHANGELOG.md)
-• 🔗 [StencilSwiftKit 1.0.2](https://github.com/SwiftGen/StencilSwiftKit/blob/1.0.2/CHANGELOG.md)
-• 🔗 [Stencil 0.9.0](https://github.com/kylef/Stencil/blob/0.9.0/CHANGELOG.md)
-• 🔗 [templates 1.1.0](https://github.com/SwiftGen/templates/blob/1.1.0/CHANGELOG.md)
+### Changes in other SwiftGen modules
+
+* [SwiftGenKit 1.1.0](https://github.com/SwiftGen/SwiftGenKit/blob/1.1.0/CHANGELOG.md)
+* [StencilSwiftKit 1.0.2](https://github.com/SwiftGen/StencilSwiftKit/blob/1.0.2/CHANGELOG.md)
+* [Stencil 0.9.0](https://github.com/kylef/Stencil/blob/0.9.0/CHANGELOG.md)
+* [templates 1.1.0](https://github.com/SwiftGen/templates/blob/1.1.0/CHANGELOG.md)
 
 ### Bug Fixes
 
 * Fix a bug in which the version of SwiftGen was reported as `v0.0` by `swiftgen --version`.  
-  [Olivier Halligon](https://github.com/alisoftware)
+  [Olivier Halligon](https://github.com/AliSoftware)
 
 ### Internal Changes
 
 * Update StencilGenKit to 1.0.2 and update Circle CI to Xcode 8.3.  
   [Diogo Tridapalli](https://github.com/diogot)
-  [#295](https://github.com/SwiftGen/SwiftGenKit/issues/295)
+  [#295](https://github.com/SwiftGen/SwiftGen/issues/295)
 * Switch from Travis CI to Circle CI, clean up the Rakefile in the process.  
   [David Jennes](https://github.com/djbe)
-  [Olivier Halligon](https://github.com/alisoftware)
-  [#269](https://github.com/SwiftGen/SwiftGenKit/issues/269)
-  [#291](https://github.com/SwiftGen/SwiftGenKit/issues/291)
+  [Olivier Halligon](https://github.com/AliSoftware)
+  [#269](https://github.com/SwiftGen/SwiftGen/pull/269)
 * Fix remaining enum names not Swift 3 compliant.  
   [Liquidsoul](https://github.com/liquidsoul)
   [#297](https://github.com/SwiftGen/SwiftGen/issues/297)
 * Added the `CONTRIBUTING.md` file to help new contributors.  
-  [Olivier Halligon](https://github.com/alisoftware)
+  [Olivier Halligon](https://github.com/AliSoftware)
   [Cihat Gündüz](https://github.com/Dschee)
   [#149](https://github.com/SwiftGen/SwiftGen/pull/149)
   [#298](https://github.com/SwiftGen/SwiftGen/pull/298)
 
 ## 4.2.0
 
-• 🔗 [SwiftGenKit 1.0.1](https://github.com/SwiftGen/SwiftGenKit/blob/1.0.1/CHANGELOG.md)
-• 🔗 [StencilSwiftKit 1.0.0](https://github.com/SwiftGen/StencilSwiftKit/blob/1.0.0/CHANGELOG.md)
-• 🔗 [Stencil 0.8.0](https://github.com/kylef/Stencil/blob/0.8.0/CHANGELOG.md)
-• 🔗 [templates 1.0.0](https://github.com/SwiftGen/templates/blob/1.0.0/CHANGELOG.md)
+### Changes in other SwiftGen modules
 
-ℹ️ Don't forget to look at the CHANGELOGs of the other repositories too (links above) in addition to this one, to see all the changes across all of SwiftGen.
+* [SwiftGenKit 1.0.1](https://github.com/SwiftGen/SwiftGenKit/blob/1.0.1/CHANGELOG.md)
+* [StencilSwiftKit 1.0.0](https://github.com/SwiftGen/StencilSwiftKit/blob/1.0.0/CHANGELOG.md)
+* [Stencil 0.8.0](https://github.com/kylef/Stencil/blob/0.8.0/CHANGELOG.md)
+* [templates 1.0.0](https://github.com/SwiftGen/templates/blob/1.0.0/CHANGELOG.md)
 
 ### Bug Fixes
 
@@ -49,7 +243,7 @@
 * Storyboards templates won't `import` your app module anymore,
   removing that annoying warning.  
   [@djbe](https://github.com/djbe)
-  [SwiftGen/templates/#19](https://github.com/SwiftGen/templates/pull/19)
+  [SwiftGen/templates#19](https://github.com/SwiftGen/templates/pull/19)
 
 ### New Features
 
@@ -70,7 +264,7 @@
   [@NachoSoto](https://github.com/NachoSoto)
   [@djbe](https://github.com/djbe)
   [#255](https://github.com/SwiftGen/SwiftGen/pull/255)
-  [SwiftGen/templates/#17](https://github.com/SwiftGen/templates/pull/17)
+  [SwiftGen/templates#17](https://github.com/SwiftGen/templates/pull/17)
 
 ### Deprecations
 
@@ -104,7 +298,7 @@ Note: The next minor version will focus on bringing more documentation for all t
   [David Jennes](https://github.com/djbe)
   [#241](https://github.com/SwiftGen/SwiftGen/issues/241)
   [#247](https://github.com/SwiftGen/SwiftGen/pull/247)
-* Snake cased keys with uppercase letters are correctly camel cased again.
+* Snake cased keys with uppercase letters are correctly camel cased again.  
   [Cihat Gündüz](https://github.com/Dschee)
   [#226](https://github.com/SwiftGen/SwiftGen/issues/226)
   [#233](https://github.com/SwiftGen/SwiftGen/pull/233)
