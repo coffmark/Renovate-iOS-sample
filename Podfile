@@ -7,8 +7,8 @@ target 'Renovate-iOS-sample' do
 
   # Pods for Renovate-iOS-sample
   pod 'SwiftLint', '~> 0.48.0'
-  pod 'RxSwift', '~> 5'
-  pod 'RxCocoa', '~> 5'
+  pod 'RxSwift', '~> 6'
+  pod 'RxCocoa', '~> 6'
   pod 'Alamofire', '~> 5.6.0'
   pod 'SwiftGen', '~> 4.0'
 end
