@@ -2,6 +2,16 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":timezone(Asia/Tokyo)"],
   "labels": ["dependencies", "renovate"],
+  "packageRules": [
+    {
+      "groupName": "RxSwift",
+      "managers": ["cocoapods"],
+      "packageNames": [
+        "RxSwift",
+        "RxCocoa"
+      ]
+    }
+  ],
   "enabled": true,
   "automerge": false,
   "branchPrefix": "renovate/",
