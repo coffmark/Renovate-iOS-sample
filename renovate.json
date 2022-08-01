@@ -1,15 +1,5 @@
 {
-  "packageRules": [
-    {
-      "groupName": "CocoaPods",
-      "managers": [
-        "cocoapods"
-      ],
-      "packageNames": [
-        "SwiftLint",
-        "RxSwift",
-        "RxCocoa"
-      ]
-    }
-  ]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:base", ":timezone(Asia/Tokyo)"],
+  "labels": ["dependencies"]
 }
