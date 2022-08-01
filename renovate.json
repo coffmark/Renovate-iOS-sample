@@ -1,5 +1,4 @@
 {
-  "label": ["dependencies"],
   "packageRules": [
     {
       "groupName": "SwiftLint",
