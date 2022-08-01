@@ -1,8 +1,9 @@
 # Mac
 .DS_Store
 
-*/xcuserdata/*
-Renovate-iOS-sample.xcodeproj/project.xcworkspace/xcuserdata/*
+# Xcode
+Renovate-iOS-sample.xcodeproj
+Renovate-iOS-sample.xcworkspace/xcuserdata/*
 
 # Pods
 Pods/Pods.xcodeproj

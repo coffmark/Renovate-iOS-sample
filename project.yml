@@ -1,0 +1,19 @@
+name: Renovate-iOS-sample
+options:
+  bundleIdPrefix: com.coffmark
+packages:
+  Yams:
+    url: https://github.com/jpsim/Yams
+    from: 2.0.0
+targets:
+  Renovate-iOS-sample:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.5"
+    sources: [Renovate-iOS-sample]
+    settings:
+      configs:
+        debug:
+          CUSTOM_BUILD_SETTING: my_debug_value
+        release:
+          CUSTOM_BUILD_SETTING: my_release_value
