@@ -1,6 +1,5 @@
 PODS:
   - Alamofire (5.6.2)
-  - Crossroad (3.2.0)
   - Nimble (10.0.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
@@ -8,22 +7,20 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
-  - SwiftGen (5.3.0)
+  - SwiftGen (6.6.1)
   - SwiftLint (0.48.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.6.0)
-  - Crossroad (~> 3.0)
   - Nimble (~> 10.0)
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
-  - SwiftGen (~> 5.0)
+  - SwiftGen (~> 6.0)
   - SwiftLint (~> 0.48.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - Crossroad
     - Nimble
     - RxCocoa
     - RxRelay
@@ -33,14 +30,13 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  Crossroad: 12534912c7d2934cc24bfb85f20322c91de5ed78
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  SwiftGen: 4379bd3640b0a212a0f6ea3c494adba385513d10
+  SwiftGen: 787181d7895fa2f5e7313d05de92c387010149c2
   SwiftLint: 284cea64b6187c5d6bd83e9a548a64104d546447
 
-PODFILE CHECKSUM: 5e50d026909a40122037ca9ecb522d32d2899425
+PODFILE CHECKSUM: a1dabcb6b89542a6b67e59dd279276867459e709
 
 COCOAPODS: 1.11.3
