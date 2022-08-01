@@ -27,5 +27,5 @@ target 'Renovate-iOS-sample' do
   pod 'Alamofire', '~> 5.6.0'
   pod 'SwiftGen', '~> 6.0'
   pod 'Nimble', '~> 10.0'
-  pod 'Crossroad', '~> 3.0'
+  pod 'Crossroad', '~> 4.0'
 end
