@@ -6,5 +6,5 @@ target 'Renovate-iOS-sample' do
   use_frameworks!
 
   # Pods for Renovate-iOS-sample
-  pod 'SwiftLint', '~> 0.39.2'
+  pod 'SwiftLint', '~> 0.48.0'
 end
