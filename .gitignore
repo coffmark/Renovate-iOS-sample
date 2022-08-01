@@ -1,2 +1,11 @@
-*/xcuserdata/*
+# Mac
 .DS_Store
+
+*/xcuserdata/*
+Renovate-iOS-sample.xcodeproj/project.xcworkspace/xcuserdata/*
+
+# Pods
+Pods/Pods.xcodeproj
+Pods/Target Support Files
+
+

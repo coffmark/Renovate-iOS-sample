@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D7444B9A158A842A37E272E /* Pods_Renovate_iOS_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26618ADF61EC0C84C1DF658 /* Pods_Renovate_iOS_sample.framework */; };
 		C63E627528979659004B926C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E627428979659004B926C /* AppDelegate.swift */; };
 		C63E627728979659004B926C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E627628979659004B926C /* SceneDelegate.swift */; };
 		C63E627928979659004B926C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E627828979659004B926C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9342F55B3DC478E8C1D7B39C /* Pods-Renovate-iOS-sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renovate-iOS-sample.debug.xcconfig"; path = "Target Support Files/Pods-Renovate-iOS-sample/Pods-Renovate-iOS-sample.debug.xcconfig"; sourceTree = "<group>"; };
 		C63E627128979659004B926C /* Renovate-iOS-sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Renovate-iOS-sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C63E627428979659004B926C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C63E627628979659004B926C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		C63E627D28979668004B926C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C63E628028979668004B926C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C63E628228979668004B926C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43961E3F97E915F5E74865E /* Pods-Renovate-iOS-sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renovate-iOS-sample.release.xcconfig"; path = "Target Support Files/Pods-Renovate-iOS-sample/Pods-Renovate-iOS-sample.release.xcconfig"; sourceTree = "<group>"; };
+		F26618ADF61EC0C84C1DF658 /* Pods_Renovate_iOS_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Renovate_iOS_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D7444B9A158A842A37E272E /* Pods_Renovate_iOS_sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5679B8997106C2B7B845E30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F26618ADF61EC0C84C1DF658 /* Pods_Renovate_iOS_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C63E626828979659004B926C = {
 			isa = PBXGroup;
 			children = (
 				C63E627328979659004B926C /* Renovate-iOS-sample */,
 				C63E627228979659004B926C /* Products */,
+				D675AD36BBACB9C2A3FE9183 /* Pods */,
+				C5679B8997106C2B7B845E30 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +82,16 @@
 			path = "Renovate-iOS-sample";
 			sourceTree = "<group>";
 		};
+		D675AD36BBACB9C2A3FE9183 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9342F55B3DC478E8C1D7B39C /* Pods-Renovate-iOS-sample.debug.xcconfig */,
+				D43961E3F97E915F5E74865E /* Pods-Renovate-iOS-sample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,6 +99,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C63E628528979668004B926C /* Build configuration list for PBXNativeTarget "Renovate-iOS-sample" */;
 			buildPhases = (
+				6644021ABC59710AF8C62F0E /* [CP] Check Pods Manifest.lock */,
 				C63E626D28979659004B926C /* Sources */,
 				C63E626E28979659004B926C /* Frameworks */,
 				C63E626F28979659004B926C /* Resources */,
@@ -132,6 +158,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6644021ABC59710AF8C62F0E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Renovate-iOS-sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C63E626D28979659004B926C /* Sources */ = {
@@ -282,6 +333,7 @@
 		};
 		C63E628628979668004B926C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9342F55B3DC478E8C1D7B39C /* Pods-Renovate-iOS-sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +361,7 @@
 		};
 		C63E628728979668004B926C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43961E3F97E915F5E74865E /* Pods-Renovate-iOS-sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
