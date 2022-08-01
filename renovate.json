@@ -2,6 +2,25 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":timezone(Asia/Tokyo)"],
   "labels": ["dependencies", "renovate"],
+  "enabled": true,
+  "automerge": false,
+  "branchPrefix": "renovate/",
+  "separateMajorMinor": true,
+  "separateMultipleMajor": true,
+  "prCreation": "immediate",
+  "prHourlyLimit": 0,
+  "baseBranches": ["main"],
+  "_comment": "親ブランチから複数個のPRを作成しない (コンフリクトが辛いため)",
+  "prConcurrentLimit": 1,
+  "reviewers": [
+    "coffmark"
+  ],
+  "_comment": "脆弱性があればアラートを出す",
+  "vulnerabilityAlerts":{
+    "enabled": true
+  },
+  "dependencyDashboard": true,
+  "_comment": "RxSwiftのみグループ化",
   "packageRules": [
     {
       "groupName": "RxSwift",
@@ -11,20 +30,5 @@
         "RxCocoa"
       ]
     }
-  ],
-  "enabled": true,
-  "automerge": false,
-  "branchPrefix": "renovate/",
-  "separateMajorMinor": true,
-  "separateMultipleMajor": true,
-  "prCreation": "immediate",
-  "prHourlyLimit": 0,
-  "prConcurrentLimit": 1,
-  "reviewers": [
-    "coffmark"
-  ],
-  "vulnerabilityAlerts":{
-    "enabled": true
-  },
-  "dependencyDashboard": true
+  ]
 }
