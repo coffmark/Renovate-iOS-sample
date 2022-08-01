@@ -19,6 +19,7 @@
   "separateMultipleMajor": true,
   "prCreation": "immediate",
   "prHourlyLimit": 0,
+  "prConcurrentLimit": 1,
   "reviewers": [
     "coffmark"
   ],
