@@ -2,7 +2,8 @@
 
 print ENV["USER"] + "\n"
 
-is_running_in_renovate = ENV['HOME'] == '/home/ubuntu'
+is_running_in_renovate = ENV['HOME'] == '/home/ubuntu' && ENV["CP_HOME_DIR"] == "/tmp/renovate-cache/others/cocoapods"
+
 if is_running_in_renovate
   # Renovateでの実行時にはXcodeGenが実行できず、xcodeprojが存在しないので `:integrate_targets => false` とする。
   inhibit_all_warnings!
