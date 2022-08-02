@@ -12,7 +12,8 @@
   "baseBranches": ["main"],
   "prConcurrentLimit": 1,
   "ignorePaths": [
-    "XcodeGen"
+    "XcodeGen",
+    "Pods"
   ],
   "reviewers": [
     "coffmark"
