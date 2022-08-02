@@ -29,5 +29,5 @@ target 'Renovate-iOS-sample' do
   pod 'SwiftGen', '~> 4.0'
   pod 'Nimble', '~> 10.0'
   pod 'Crossroad', '~> 4.0'
-  pod 'SDWebImage', '~> 3.0'
+  pod 'SDWebImage', '~> 4.0'
 end
