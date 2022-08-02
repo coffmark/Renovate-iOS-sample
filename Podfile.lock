@@ -8,9 +8,9 @@ PODS:
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
-  - SDWebImage (4.4.8):
-    - SDWebImage/Core (= 4.4.8)
-  - SDWebImage/Core (4.4.8)
+  - SDWebImage (3.8.3):
+    - SDWebImage/Core (= 3.8.3)
+  - SDWebImage/Core (3.8.3)
   - SwiftGen (6.6.1)
   - SwiftLint (0.48.0)
 
@@ -20,7 +20,7 @@ DEPENDENCIES:
   - Nimble (~> 10.0)
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
-  - SDWebImage (~> 4.0)
+  - SDWebImage (~> 3.0)
   - SwiftGen (~> 6.0)
   - SwiftLint (~> 0.48.0)
 
@@ -43,10 +43,10 @@ SPEC CHECKSUMS:
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
-  SDWebImage: 783af2c3fa36291a250030c4752ee370a9a51d13
+  SDWebImage: a72e880a8fe0f7fc31efe15aaed443c074d2a80c
   SwiftGen: 787181d7895fa2f5e7313d05de92c387010149c2
   SwiftLint: 284cea64b6187c5d6bd83e9a548a64104d546447
 
-PODFILE CHECKSUM: d7c01fce61ccc3ccd58ff441374a3042188da60a
+PODFILE CHECKSUM: 145c4a4d1e999880cb7ba8065eb973da4c586119
 
 COCOAPODS: 1.11.3
