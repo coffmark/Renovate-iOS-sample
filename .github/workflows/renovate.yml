@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Renovate
-        run: docker run --rm --volume "renovate.json:/usr/src/app/renovate.json" renovate/renovate:latest --token=${{ secrets.RENOVATE_TOKEN }} coffmark/Renovate-iOS-sample
+        run: docker run --rm --volume "renovate.json:/usr/src/app/renovate.json" renovate/renovate:slim --token=${{ secrets.RENOVATE_TOKEN }} coffmark/Renovate-iOS-sample
