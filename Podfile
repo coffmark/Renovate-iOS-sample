@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 
-is_running_in_renovate = ENV['HOME'] == '/home/ubuntu' && ENV["CP_HOME_DIR"] == "/tmp/renovate-cache/others/cocoapods"
+is_running_in_renovate = ENV['HOME'] == '/home/ubuntu'
 
 if is_running_in_renovate
   # Renovateでの実行時にはXcodeGenが実行できず、xcodeprojが存在しないので `:integrate_targets => false` とする。
