@@ -1,5 +1,29 @@
 PODS:
+  - AFNetworking (2.7.0):
+    - AFNetworking/NSURLConnection (= 2.7.0)
+    - AFNetworking/NSURLSession (= 2.7.0)
+    - AFNetworking/Reachability (= 2.7.0)
+    - AFNetworking/Security (= 2.7.0)
+    - AFNetworking/Serialization (= 2.7.0)
+    - AFNetworking/UIKit (= 2.7.0)
+  - AFNetworking/NSURLConnection (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.7.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.7.0)
+  - AFNetworking/Security (2.7.0)
+  - AFNetworking/Serialization (2.7.0)
+  - AFNetworking/UIKit (2.7.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - Alamofire (5.6.2)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
   - Crossroad (4.2.0)
   - Nimble (10.0.0)
   - RxCocoa (6.5.0):
@@ -16,7 +40,9 @@ PODS:
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
+  - AFNetworking (= 2.7.0)
   - Alamofire (~> 5.6.0)
+  - Charts (~> 3.0)
   - Crossroad (~> 4.0)
   - Nimble (~> 10.0)
   - RxCocoa (~> 6)
@@ -28,7 +54,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AFNetworking
     - Alamofire
+    - Charts
     - Crossroad
     - Nimble
     - RxCocoa
@@ -40,7 +68,9 @@ SPEC REPOS:
     - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AFNetworking: 8dd5f9b9691e09186393069a12cc3b5ed7c8b511
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Crossroad: c2d6cd1fa4ad1c2ba643584066a5a1a26fb8091d
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
@@ -51,6 +81,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: f3e779535e5455511980b4d0afe4c334407c0f4b
+PODFILE CHECKSUM: 751ae1343ba75d806a4c3a16f2185df4011a5d61
 
 COCOAPODS: 1.11.3
