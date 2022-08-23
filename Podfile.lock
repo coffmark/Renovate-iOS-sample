@@ -11,9 +11,9 @@ PODS:
   - SDWebImage (5.13.2):
     - SDWebImage/Core (= 5.13.2)
   - SDWebImage/Core (5.13.2)
-  - SwiftGen (4.2.1)
+  - SwiftGen (6.6.2)
   - SwiftLint (0.41.0)
-  - SwiftyJSON (4.3.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.6.0)
@@ -22,9 +22,9 @@ DEPENDENCIES:
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
   - SDWebImage (~> 5.0)
-  - SwiftGen (~> 4.0)
+  - SwiftGen (~> 6.0)
   - SwiftLint (= 0.41.0)
-  - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (~> 5.0)
 
 SPEC REPOS:
   trunk:
@@ -47,10 +47,10 @@ SPEC CHECKSUMS:
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
-  SwiftGen: 2ba2a88fc6130b96e38e2baa0029e4bd222ffd85
+  SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 398e711f03f29ed6122571ac87c7cd55e670a1b8
+PODFILE CHECKSUM: cf6909168f9dc860d1757390cef6c20658f59feb
 
 COCOAPODS: 1.11.3
