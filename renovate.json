@@ -12,7 +12,7 @@
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
   "prCreation": "immediate",
-  "prHourlyLimit": 0,
+  "prHourlyLimit": 1,
   "baseBranches": ["main"],
   "prConcurrentLimit": 1,
   "ignorePaths": [
