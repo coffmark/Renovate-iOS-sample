@@ -30,6 +30,6 @@ target 'Renovate-iOS-sample' do
   pod 'Crossroad', '~> 4.0'
   pod 'SDWebImage', '~> 5.0'
   pod 'SwiftyJSON', '~> 5.0'
-  pod 'AFNetworking', '2.7.0'
+  pod 'AFNetworking', '3.2.1'
   pod 'Charts', '~> 3.0'
 end
