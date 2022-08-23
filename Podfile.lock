@@ -15,9 +15,10 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Alamofire (5.6.2)
-  - Charts (3.6.0):
-    - Charts/Core (= 3.6.0)
-  - Charts/Core (3.6.0)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
   - Crossroad (4.2.0)
   - Nimble (10.0.0)
   - RxCocoa (6.5.0):
@@ -29,6 +30,7 @@ PODS:
   - SDWebImage (5.13.2):
     - SDWebImage/Core (= 5.13.2)
   - SDWebImage/Core (5.13.2)
+  - SwiftAlgorithms (1.0.0)
   - SwiftGen (6.6.1)
   - SwiftLint (0.42.0)
   - SwiftyJSON (5.0.1)
@@ -36,7 +38,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (= 4.0.1)
   - Alamofire (~> 5.6.0)
-  - Charts (~> 3.0)
+  - Charts (~> 4.0)
   - Crossroad (~> 4.0)
   - Nimble (~> 10.0)
   - RxCocoa (~> 6)
@@ -57,6 +59,7 @@ SPEC REPOS:
     - RxRelay
     - RxSwift
     - SDWebImage
+    - SwiftAlgorithms
     - SwiftGen
     - SwiftLint
     - SwiftyJSON
@@ -64,17 +67,18 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
-  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Charts: d959d6723c8eedfdd0735dfc28cb0a71762ac4d9
   Crossroad: c2d6cd1fa4ad1c2ba643584066a5a1a26fb8091d
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
   SwiftGen: 787181d7895fa2f5e7313d05de92c387010149c2
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 694a302fb9188c200f9bf63633d58d1b661fc242
+PODFILE CHECKSUM: 4cb6e5a9aa756d5e307c5dbbd046032c0bc5feb5
 
 COCOAPODS: 1.11.3

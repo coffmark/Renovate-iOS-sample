@@ -31,5 +31,5 @@ target 'Renovate-iOS-sample' do
   pod 'SDWebImage', '~> 5.0'
   pod 'SwiftyJSON', '~> 5.0'
   pod 'AFNetworking', '4.0.1'
-  pod 'Charts', '~> 3.0'
+  pod 'Charts', '~> 4.0'
 end
