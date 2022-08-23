@@ -29,5 +29,5 @@ target 'Renovate-iOS-sample' do
   pod 'Nimble', '~> 10.0'
   pod 'Crossroad', '~> 4.0'
   pod 'SDWebImage', '~> 5.0'
-  pod 'SwiftyJSON', '~> 4.0'
+  pod 'SwiftyJSON', '~> 5.0'
 end
