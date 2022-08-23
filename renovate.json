@@ -8,7 +8,7 @@
   "labels": ["📦 dependencies"],
   "prCreation": "immediate",
   "automerge": false,
-  "prHourlyLimit": 1,
+  "prHourlyLimit": 0,
   "prConcurrentLimit": 1,
   "repositories": [
     "coffmark/Renovate-iOS-sample"
