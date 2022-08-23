@@ -13,7 +13,7 @@ PODS:
   - SDWebImage/Core (5.13.2)
   - SwiftGen (6.6.2)
   - SwiftLint (0.41.0)
-  - SwiftyJSON (4.3.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire (~> 5.6.0)
@@ -24,7 +24,7 @@ DEPENDENCIES:
   - SDWebImage (~> 5.0)
   - SwiftGen (~> 6.0)
   - SwiftLint (= 0.41.0)
-  - SwiftyJSON (~> 4.0)
+  - SwiftyJSON (~> 5.0)
 
 SPEC REPOS:
   trunk:
@@ -49,7 +49,7 @@ SPEC CHECKSUMS:
   SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
   SwiftGen: 1366a7f71aeef49954ca5a63ba4bef6b0f24138c
   SwiftLint: c585ebd615d9520d7fbdbe151f527977b0534f1e
-  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
 PODFILE CHECKSUM: cf6909168f9dc860d1757390cef6c20658f59feb
 
