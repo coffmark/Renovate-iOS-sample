@@ -21,7 +21,7 @@ target 'Renovate-iOS-sample' do
   current_target_definition.swift_version = '5.6.1'
 
   # Pods for Renovate-iOS-sample
-  pod 'SwiftLint', '0.41.0'
+  pod 'SwiftLint', '0.42.0'
   pod 'RxSwift', '~> 6'
   pod 'RxCocoa', '~> 6'
   pod 'Alamofire', '~> 5.6.0'
