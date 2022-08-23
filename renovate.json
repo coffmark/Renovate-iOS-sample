@@ -11,7 +11,14 @@
   "prHourlyLimit": 0,
   "prConcurrentLimit": 1,
   "prHeader": "prHeader, prHeader, prHeader",
-  "prBodyNotes": ["prBodyNotes, prBodyNotes, prBodyNotes","prBodyNotes, prBodyNotes, prBodyNotes","prBodyNotes, prBodyNotes, prBodyNotes"],
+  "prBodyNotes": [
+    "--",
+    "prBodyNotes",
+    "これはprBodyNotesです。",
+    "`markdown`も使えます。",
+    "--"
+  ],
+  "prBodyTemplate": "{{{header}}}{{{table}}}{{{changelogs}}}{{{configDescription}}}{{{controls}}}{{{footer}}}{{{notes}}}",
   "repositories": [
     "coffmark/Renovate-iOS-sample"
   ],
