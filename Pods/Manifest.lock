@@ -15,12 +15,16 @@ PODS:
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
   - Alamofire (5.6.2)
+  - AWSCore (2.27.15)
+  - AWSS3 (2.27.15):
+    - AWSCore (= 2.27.15)
   - Charts (3.6.0):
     - Charts/Core (= 3.6.0)
   - Charts/Core (3.6.0)
   - Crossroad (4.2.0)
   - Nimble (10.0.0)
-  - PrivateCocoaPodsProj (0.0.2)
+  - PrivateCocoaPodsProj (0.0.4):
+    - AWSS3 (~> 2.27.10)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -40,7 +44,7 @@ DEPENDENCIES:
   - Charts (~> 3.0)
   - Crossroad (~> 4.0)
   - Nimble (~> 10.0)
-  - PrivateCocoaPodsProj (from `https://github.com/coffmark/PrivateCocoaPodsProj.git`, tag `0.0.2`)
+  - PrivateCocoaPodsProj (from `https://github.com/coffmark/PrivateCocoaPodsProj.git`, tag `0.0.4`)
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
   - SDWebImage (~> 5.0)
@@ -52,6 +56,8 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - Alamofire
+    - AWSCore
+    - AWSS3
     - Charts
     - Crossroad
     - Nimble
@@ -66,20 +72,22 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   PrivateCocoaPodsProj:
     :git: https://github.com/coffmark/PrivateCocoaPodsProj.git
-    :tag: 0.0.2
+    :tag: 0.0.4
 
 CHECKOUT OPTIONS:
   PrivateCocoaPodsProj:
     :git: https://github.com/coffmark/PrivateCocoaPodsProj.git
-    :tag: 0.0.2
+    :tag: 0.0.4
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  AWSCore: c67277201b6aca10e4cf24638eadaa67c85ebf03
+  AWSS3: 09801b290f8818f532694cabd5d503c7474eb3df
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Crossroad: c2d6cd1fa4ad1c2ba643584066a5a1a26fb8091d
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  PrivateCocoaPodsProj: af28dbf49577790e2ef75576e1cf1040a43157a7
+  PrivateCocoaPodsProj: 5b4b019fb8bcb50fa2f26bdeab5048d15ff7e2e2
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
@@ -88,6 +96,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 1d695977bf881ca065d7d3ec6751b8f551c39437
+PODFILE CHECKSUM: a1658f6865049b56f93132ce207325328d0ea520
 
 COCOAPODS: 1.11.3

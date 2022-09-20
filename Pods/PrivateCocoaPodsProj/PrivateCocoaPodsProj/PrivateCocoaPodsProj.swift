@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
+import AWSS3
 
 public let projectName = "PrivateCocoaPodsProj"

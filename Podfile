@@ -33,5 +33,5 @@ target 'Renovate-iOS-sample' do
   pod 'AFNetworking', '4.0.1'
   pod 'Charts', '~> 3.0'
 
-  pod 'PrivateCocoaPodsProj', :git => "https://github.com/coffmark/PrivateCocoaPodsProj.git", :tag => "0.0.2"
+  pod 'PrivateCocoaPodsProj', :git => "https://github.com/coffmark/PrivateCocoaPodsProj.git", :tag => "0.0.4"
 end
