@@ -12,8 +12,8 @@
   "prConcurrentLimit": 1,
   "prHeader": "prHeader, prHeader, prHeader",
   "prBodyNotes": [
-  "<br/> \
-  hoge \n \
+  "\
+  <br/>hoge \n \
   hogehoge \n \
   "
   ],
