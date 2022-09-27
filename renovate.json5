@@ -12,9 +12,9 @@
   "prConcurrentLimit": 1,
   "prHeader": "prHeader, prHeader, prHeader",
   "prBodyNotes": [
-  "\
-  hoge \
-  hogehoge \
+  "\n \
+  hoge \n \
+  hogehoge \n \
   "
   ],
   "prBodyTemplate": "{{{header}}}{{{table}}}{{{changelogs}}}{{{configDescription}}}{{{controls}}}{{{footer}}}{{{notes}}}",
