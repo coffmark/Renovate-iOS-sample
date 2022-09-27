@@ -12,11 +12,10 @@
   "prConcurrentLimit": 1,
   "prHeader": "prHeader, prHeader, prHeader",
   "prBodyNotes": [
-    "<br/>",
-    "prBodyNotes",
-    "これはprBodyNotesです。",
-    "`markdown`も使えます。",
-    "--"
+  "
+  hoge \
+  hogehoge \
+  "
   ],
   "prBodyTemplate": "{{{header}}}{{{table}}}{{{changelogs}}}{{{configDescription}}}{{{controls}}}{{{footer}}}{{{notes}}}",
   "repositories": [
