@@ -5,7 +5,7 @@
   "platform": "github",
   "baseBranches": ["main"],
   "branchPrefix": "renovate/",
-  "labels": ["📦 dependencies"],
+  "labels": [":package: dependencies"],
   "prCreation": "immediate",
   "automerge": false,
   "prHourlyLimit": 0,
