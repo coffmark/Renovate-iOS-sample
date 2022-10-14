@@ -41,6 +41,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (= 4.0.1)
   - Alamofire (~> 5.6.0)
+  - AWSS3 (~> 2.27.10)
   - Charts (~> 3.0)
   - Crossroad (~> 4.0)
   - Nimble (~> 10.0)
@@ -96,6 +97,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: a1658f6865049b56f93132ce207325328d0ea520
+PODFILE CHECKSUM: 262f922093e64f39b82bc4332a3d88a5ab1966c8
 
 COCOAPODS: 1.11.3
