@@ -32,7 +32,7 @@ target 'Renovate-iOS-sample' do
   pod 'SwiftyJSON', '~> 5.0'
   pod 'AFNetworking', '4.0.1'
   pod 'Charts', '~> 3.0'
-  pod 'AWSS3', '~> 2.27.10'
+  pod 'AWSS3', '~> 2.28.0'
 
   pod 'PrivateCocoaPodsProj', :git => "https://github.com/coffmark/PrivateCocoaPodsProj.git", :tag => "0.0.4"
 end
