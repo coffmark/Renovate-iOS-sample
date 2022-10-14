@@ -23,8 +23,8 @@ PODS:
   - Charts/Core (3.6.0)
   - Crossroad (4.2.0)
   - Nimble (10.0.0)
-  - PrivateCocoaPodsProj (0.0.4):
-    - AWSS3 (~> 2.27.10)
+  - PrivateCocoaPodsProj (0.0.5):
+    - AWSS3 (~> 2.0)
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
@@ -45,7 +45,7 @@ DEPENDENCIES:
   - Charts (~> 3.0)
   - Crossroad (~> 4.0)
   - Nimble (~> 10.0)
-  - PrivateCocoaPodsProj (from `https://github.com/coffmark/PrivateCocoaPodsProj.git`, tag `0.0.4`)
+  - PrivateCocoaPodsProj (from `https://github.com/coffmark/PrivateCocoaPodsProj.git`, tag `0.0.5`)
   - RxCocoa (~> 6)
   - RxSwift (~> 6)
   - SDWebImage (~> 5.0)
@@ -73,12 +73,12 @@ SPEC REPOS:
 EXTERNAL SOURCES:
   PrivateCocoaPodsProj:
     :git: https://github.com/coffmark/PrivateCocoaPodsProj.git
-    :tag: 0.0.4
+    :tag: 0.0.5
 
 CHECKOUT OPTIONS:
   PrivateCocoaPodsProj:
     :git: https://github.com/coffmark/PrivateCocoaPodsProj.git
-    :tag: 0.0.4
+    :tag: 0.0.5
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -88,7 +88,7 @@ SPEC CHECKSUMS:
   Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
   Crossroad: c2d6cd1fa4ad1c2ba643584066a5a1a26fb8091d
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
-  PrivateCocoaPodsProj: 5b4b019fb8bcb50fa2f26bdeab5048d15ff7e2e2
+  PrivateCocoaPodsProj: 74fe88ca4994d493bcdaaa5af3954677c6777634
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
@@ -97,6 +97,6 @@ SPEC CHECKSUMS:
   SwiftLint: 4fa9579c63416865179bc416f0a92d55f009600d
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 262f922093e64f39b82bc4332a3d88a5ab1966c8
+PODFILE CHECKSUM: 588ffff25a02ff05e00c84ab8d1e9cb7e2b05255
 
 COCOAPODS: 1.11.3
