@@ -2,9 +2,9 @@ name: Renovate-iOS-sample
 options:
   bundleIdPrefix: com.coffmark
 packages:
-  Yams:
-    url: https://github.com/jpsim/Yams
-    from: 2.0.0
+  Alamofire:
+    url: https://github.com/Alamofire/Alamofire
+    from: 5.6.0
 targets:
   Renovate-iOS-sample:
     type: application
