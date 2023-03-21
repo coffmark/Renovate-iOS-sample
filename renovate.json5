@@ -23,11 +23,6 @@
   ],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
-  "ignorePaths": [
-    "XcodeGen",
-    "Pods"
-  ],
-
   "dependencyDashboard": true,
   "onboarding": true,
   "requireConfig": "required",
