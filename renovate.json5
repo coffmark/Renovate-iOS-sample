@@ -40,12 +40,13 @@
         "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*version: (?<currentValue>.*)\\s"
       ],
       // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
-      "datasourceTemplate": "github-releases",
       // "versioningTemplate": "github-tags"
+      "depNameTemplate": "xcodegen",
+      "datasourceTemplate": "github-releases"
     },
     {
       "fileMatch": ["^Dockerfile$"],
-      "matchStrings": ["ENV YARN_VERSION=(?<currentValue>.*?)\\n"],
+      "matchStrings": ["ENV YARN_VERSION==(?<currentValue>.*?)\\n"],
       "depNameTemplate": "yarn",
       "datasourceTemplate": "npm"
     }
