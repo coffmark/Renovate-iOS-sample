@@ -29,7 +29,7 @@
   "reviewers": [
     "coffmark"
   ],
-  "ignoreDeps": [],
+  "ignoreDeps": ["github-action"],
   "vulnerabilityAlerts":{
     "enabled": true
   },
