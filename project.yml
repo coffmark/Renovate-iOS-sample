@@ -9,8 +9,12 @@ targets:
   Renovate-iOS-sample:
     type: application
     platform: iOS
-    deploymentTarget: "15.5"
+    deploymentTarget: "16.2"
     sources: [Renovate-iOS-sample]
+    # info:
+    #   path: Renovate-iOS-sample/Info.plist
+    #   properties:
+    #     CFBundleVersion: "1.0.0"
     settings:
       configs:
         debug:
