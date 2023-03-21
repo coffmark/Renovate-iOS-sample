@@ -38,16 +38,6 @@
   "vulnerabilityAlerts":{
     "enabled": true
   },
-  "packageRules": [
-    {
-      "groupName": "RxSwift",
-      "managers": ["cocoapods"],
-      "packageNames": [
-        "RxSwift",
-        "RxCocoa"
-      ]
-    }
-  ],
   "regexManagers": [
     {
       "fileMatch": ["^project.yml$"],
