@@ -37,7 +37,7 @@
     {
       "fileMatch": ["^project.yml$"],
       "matchStrings": [
-        "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*version: (?<currentValue>.*)\\s"
+        "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*from: (?<currentValue>.*)\\s"
       ],
       // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
       // "versioningTemplate": "github-tags"
