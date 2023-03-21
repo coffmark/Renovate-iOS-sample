@@ -29,7 +29,7 @@
   "reviewers": [
     "coffmark"
   ],
-  "ignoreDeps": ["github-action"],
+  "ignoreDeps": ["renovatebot/github-action", "actions/checkout"],
   "vulnerabilityAlerts":{
     "enabled": true
   },
