@@ -41,7 +41,6 @@
       ],
       // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
       // "versioningTemplate": "github-tags"
-      "depNameTemplate": "xcodegen",
       "datasourceTemplate": "github-tags"
     },
     {
