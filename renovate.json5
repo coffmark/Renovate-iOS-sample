@@ -38,8 +38,7 @@
       "fileMatch": ["^project.yml$"],
       "matchStrings": [
         "url: https://github.com/(?<depName>.*?)?\\sfrom:(?<currentValue>.*)"
-      ],
-      "datasource": "github-tags"
+      ]
     }
   ]
 }
