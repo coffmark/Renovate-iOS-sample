@@ -42,12 +42,6 @@
       // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
       // "versioningTemplate": "github-tags"
       "datasourceTemplate": "github-tags"
-    },
-    {
-      "fileMatch": ["^Dockerfile$"],
-      "matchStrings": ["ENV YARN_VERSION==(?<currentValue>.*?)\\n"],
-      "depNameTemplate": "yarn",
-      "datasourceTemplate": "npm"
     }
   ]
 }
