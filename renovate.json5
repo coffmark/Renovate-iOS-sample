@@ -37,7 +37,7 @@
     {
       "fileMatch": ["(^|/)XcodeGen/project\.yml$"],
       "matchStrings": [
-        "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*from: (?<currentValue>.*)\\s"
+        "github: (?<depName>.*?)\\s*from: (?<currentValue>.*)\\s"
       ],
       // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
       // "versioningTemplate": "github-tags"

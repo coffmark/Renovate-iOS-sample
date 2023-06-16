@@ -3,7 +3,7 @@ options:
   bundleIdPrefix: com.coffmark
 packages:
   Alamofire:
-    url: https://github.com/Alamofire/Alamofire
+    github: Alamofire/Alamofire
     from: 5.6.0
 targets:
   Renovate-iOS-sample:
