@@ -4,7 +4,7 @@ options:
 packages:
   Alamofire:
     github: Alamofire/Alamofire
-    from: 5.6.0
+    from: 5.7.1
 targets:
   Renovate-iOS-sample:
     type: application
