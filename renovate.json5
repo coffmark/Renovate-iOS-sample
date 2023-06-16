@@ -35,7 +35,7 @@
   },
   "regexManagers": [
     {
-      "fileMatch": ["^project.yml$"],
+      "fileMatch": ["(^|/)XcodeGen/project\.yml$"],
       "matchStrings": [
         "url: https:\\/\\/github\\.com\\/(?<depName>.*?)(\\.git)?\\s*from: (?<currentValue>.*)\\s"
       ],
