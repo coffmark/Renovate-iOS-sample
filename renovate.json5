@@ -35,7 +35,7 @@
   },
   "regexManagers": [
     {
-      "fileMatch": ["(^|/)XcodeGen/specs/packages\.yml$"],
+      "fileMatch": ["(^|/)XcodeGen/specs/packages\\.yml$"],
       "matchStrings": [
         "github: (?<depName>.*?)\\s*exactVersion: \"(?<currentValue>.*)\"\\s"
       ],
