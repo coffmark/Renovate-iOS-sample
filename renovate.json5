@@ -3,7 +3,7 @@
   "extends": ["config:base", ":timezone(Asia/Tokyo)"],
 
   "platform": "github",
-  "baseBranches": ["main"],
+  "baseBranches": ["feature/ignore-deps"],
   "branchPrefix": "renovate/",
   "labels": [":package: dependencies"],
   "prCreation": "immediate",
