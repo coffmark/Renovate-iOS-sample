@@ -29,7 +29,6 @@
   "reviewers": [
     "coffmark"
   ],
-  "ignoreDeps": ["renovatebot/github-action", "actions/checkout"],
   "vulnerabilityAlerts":{
     "enabled": true
   },
