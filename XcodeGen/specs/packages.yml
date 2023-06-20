@@ -1,7 +1,7 @@
 packages:
   Alamofire:
     github: Alamofire/Alamofire
-    exactVersion: "5.6.0"
+    exactVersion: "5.7.1"
   Crossroad:
     github: giginet/Crossroad
     exactVersion: "4.1.0"
