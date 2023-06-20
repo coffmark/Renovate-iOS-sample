@@ -2,9 +2,10 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:base", ":timezone(Asia/Tokyo)"],
 
+
   "platform": "github",
-  "baseBranches": ["feature/ignore-deps", "main"],
-  "useBaseBranchConfig": "merge",
+  "require-config": "ignored",
+  "baseBranches": ["feature/ignore-deps"],
   "branchPrefix": "renovate/",
   "labels": [":package: dependencies"],
   "prCreation": "immediate",
