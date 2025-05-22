@@ -32,16 +32,5 @@
   "ignoreDeps": ["renovatebot/github-action", "actions/checkout"],
   "vulnerabilityAlerts":{
     "enabled": true
-  },
-  "regexManagers": [
-    {
-      "fileMatch": ["(^|/)XcodeGen/specs/packages\\.yml$"],
-      "matchStrings": [
-        "github: (?<depName>.*?)\\s*exactVersion: \"(?<currentValue>.*)\"\\s"
-      ],
-      // "autoReplaceStringTemplate": "'{{{depName}}}'\n    from: {{{newValue}}}",
-      // "versioningTemplate": "github-tags"
-      "datasourceTemplate": "github-tags"
-    }
-  ]
+  }
 }
