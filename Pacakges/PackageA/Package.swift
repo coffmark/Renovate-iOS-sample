@@ -12,7 +12,7 @@ let package = Package(
             targets: ["PackageA"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: Version("5.9.0")),
+        .package(url: "https://github.com/firebase/firebase-ios-sdk.git", exact: Version("11.5.0"))
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
